@@ -11,7 +11,8 @@ Replace
 <span style="color:red">**[[SERVICE_NAME]]**</span>.
 
 with your own config
-###*(application.yml)*
+
+### *(application.yml)*
 ```yaml
 server:
   port: [[PORT]]
@@ -42,7 +43,7 @@ logging:
 ```
 
 ## Eureka Server quick config
-###*(application.yml)*
+### *(application.yml)*
 ```yaml
 server:
   port: ${PORT:8761}
